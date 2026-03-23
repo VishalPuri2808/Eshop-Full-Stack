@@ -14,7 +14,6 @@ const fs_1 = __importDefault(require("fs"));
 const sqlite3_1 = __importDefault(require("sqlite3"));
 sqlite3_1.default.verbose();
 const DATA_DIR = path_1.default.resolve(__dirname, '..', 'data');
-// New database file derived from EShop Dataset.xlsx
 const DB_FILE = path_1.default.join(DATA_DIR, 'eshop_dataset.db');
 if (!fs_1.default.existsSync(DATA_DIR)) {
     fs_1.default.mkdirSync(DATA_DIR, { recursive: true });

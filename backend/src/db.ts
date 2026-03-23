@@ -6,7 +6,6 @@ import { Product } from './types';
 sqlite3.verbose();
 
 const DATA_DIR = path.resolve(__dirname, '..', 'data');
-// New database file derived from EShop Dataset.xlsx
 const DB_FILE = path.join(DATA_DIR, 'eshop_dataset.db');
 
 if (!fs.existsSync(DATA_DIR)) {
