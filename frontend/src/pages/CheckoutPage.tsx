@@ -108,21 +108,21 @@ export default function CheckoutPage() {
       </div>
       <div className="muted" style={{ marginTop: 12 }}>Shipping</div>
       <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-        <input className="input" style={{ flex: 1, minWidth: 240, color: '#0f172a', background: '#e8edf6', fontWeight: 600 }} placeholder="Address" value={shippingAddress} onChange={e => setShippingAddress(e.target.value)} />
-        <input className="input" style={{ width: 200, color: '#0f172a', background: '#e8edf6', fontWeight: 600 }} placeholder="City" value={shippingCity} onChange={e => setShippingCity(e.target.value)} />
-        <input className="input" style={{ width: 120, color: '#0f172a', background: '#e8edf6', fontWeight: 600 }} placeholder="Country" value={shippingCountry} onChange={e => setShippingCountry(e.target.value)} />
+        <input className="input" style={{ flex: 1, minWidth: 240, color: '#0f172a', background: '#f1f5f9', fontWeight: 600 }} placeholder="Address" value={shippingAddress} onChange={e => setShippingAddress(e.target.value)} />
+        <input className="input" style={{ width: 200, color: '#0f172a', background: '#f1f5f9', fontWeight: 600 }} placeholder="City" value={shippingCity} onChange={e => setShippingCity(e.target.value)} />
+        <input className="input" style={{ width: 120, color: '#0f172a', background: '#f1f5f9', fontWeight: 600 }} placeholder="Country" value={shippingCountry} onChange={e => setShippingCountry(e.target.value)} />
       </div>
 
       <div className="muted" style={{ marginTop: 12 }}>Billing</div>
       <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-        <input className="input" style={{ flex: 1, minWidth: 240, color: '#0f172a', background: '#e8edf6', fontWeight: 600}} placeholder="Address" value={billingAddress} onChange={e => setBillingAddress(e.target.value)} />
-        <input className="input" style={{ width: 200, color: '#0f172a', background: '#e8edf6', fontWeight: 600}} placeholder="City" value={billingCity} onChange={e => setBillingCity(e.target.value)} />
-        <input className="input" style={{ width: 120, color: '#0f172a', background: '#e8edf6', fontWeight: 600}} placeholder="Country" value={billingCountry} onChange={e => setBillingCountry(e.target.value)} />
+        <input className="input" style={{ flex: 1, minWidth: 240, color: '#0f172a', background: '#f1f5f9', fontWeight: 600}} placeholder="Address" value={billingAddress} onChange={e => setBillingAddress(e.target.value)} />
+        <input className="input" style={{ width: 200, color: '#0f172a', background: '#f1f5f9', fontWeight: 600}} placeholder="City" value={billingCity} onChange={e => setBillingCity(e.target.value)} />
+        <input className="input" style={{ width: 120, color: '#0f172a', background: '#f1f5f9', fontWeight: 600}} placeholder="Country" value={billingCountry} onChange={e => setBillingCountry(e.target.value)} />
       </div>
 
       <div className="muted" style={{ marginTop: 12 }}>Payment</div>
       <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-        <select className="input" style={{ width: 180, color: '#0f172a', background: '#e8edf6', fontWeight: 600 }} value={cardType} onChange={e => setCardType(e.target.value)}>
+        <select className="input" style={{ width: 180, color: '#0f172a', background: '#f1f5f9', fontWeight: 600 }} value={cardType} onChange={e => setCardType(e.target.value)}>
           <option style={{ color: '#0f172a' }} value="Amex">Amex</option>
           <option style={{ color: '#0f172a' }} value="VISA">VISA</option>
           <option style={{ color: '#0f172a' }} value="Master">Master</option>
@@ -130,14 +130,14 @@ export default function CheckoutPage() {
         </select>
         <input
           className="input"
-          style={{ flex: 1, minWidth: 260, color: '#0f172a', background: '#e8edf6', fontWeight: 600 }}
+          style={{ flex: 1, minWidth: 260, color: '#0f172a', background: '#f1f5f9', fontWeight: 600 }}
           placeholder="Enter 15-Digit Card Number"
           value={cardNumber}
           onChange={e => setCardNumber(e.target.value)}
         />
         <input
           className="input"
-          style={{ width: 200, color: '#0f172a', background: '#e8edf6', fontWeight: 600 }}
+          style={{ width: 200, color: '#0f172a', background: '#f1f5f9', fontWeight: 600 }}
           placeholder="Phone"
           value={phone}
           onChange={e => setPhone(e.target.value)}

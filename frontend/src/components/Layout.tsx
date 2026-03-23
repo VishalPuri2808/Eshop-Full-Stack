@@ -27,7 +27,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="spacer" />
         {user && (
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <div className="pill" style={{ color: '#fff' }}>
+            <div className="pill" style={{ color: 'var(--text)' }}>
               <span style={{ display: 'inline-flex', width: 28, height: 28, borderRadius: '50%', alignItems: 'center', justifyContent: 'center', background: 'rgba(255,255,255,0.12)', fontWeight: 700 }}>
                 {initials || 'U'}
               </span>
